@@ -68,3 +68,6 @@ PRODUCT_COPY_FILES += \
 # PocketMode
 PRODUCT_PACKAGES += \
     XiaomiPocketMode
+	
+# GoogleCamera
+$(call inherit-product, packages/apps/GoogleCameraMod/xiaomi-sdm845/config.mk)	
