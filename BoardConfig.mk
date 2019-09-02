@@ -27,6 +27,7 @@ BOARD_HAVE_QCOM_FM := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := beryllium_defconfig
+TARGET_KERNEL_CLANG_VERSION := 9.0.5
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
